@@ -1,0 +1,176 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    height: 100%;
+    margin-top: 60px;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-style{
+    width: 50%;
+}
+header a{
+    text-decoration: none;
+    color: white;
+     background-color: black;
+     border-radius: 100px;
+     padding: 10px 35px;
+     margin-top: 50px;
+}
+header p{
+    font-family: sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.par-dezign{
+    line-height: 20px;
+}
+.link-style{
+    margin-top: 50px;
+}
+header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 100px;
+}
+.fa-heart{
+    width: 32px;
+    height: 32px;
+    background-color: dodgerblue;
+    padding: 10px;
+    fill: white;
+    border-radius: 10px;
+}
+.fa-star{
+    width: 32px;
+    height: 32px;
+    background-color: gold;
+    padding: 10px;
+    fill: white;
+    border-radius: 10px;
+}
+.fa-clock{
+    width: 32px;
+    height: 32px;
+    background-color: rgb(136, 13, 136);
+    padding: 10px;
+    fill: white;
+    border-radius: 10px;
+}
+.fa-file{
+    width: 32px;
+    height: 32px;
+    background-color: rgb(202, 88, 88);
+    padding: 10px;
+    fill: white;
+    border-radius: 10px;
+}
+.fa-table{
+    width: 32px;
+    height: 32px;
+    background-color: limegreen;
+    padding: 10px;
+    fill: white;
+    border-radius: 10px;
+}
+.fa-bookmark{
+    width: 32px;
+    height: 32px;
+    background-color: lightskyblue;
+    padding: 10px;
+    fill: white;
+    border-radius: 10px;
+}
+.s-dezign{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.block-2{
+    width: 50%;
+}
+.block-1{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    line-height: 15px;
+    margin-top: 40px;
+}
+.dezign-block{
+    width: 250px;
+    display: flex;
+    gap: 15px;
+}
+.dezign-block-1{
+    margin-top: -15px;
+}
+.p-dezign{
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    display: grid;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    margin-top: 100px;
+    gap: 0;
+    object-fit: cover;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.item-1{
+    background-image: url(img/download\ \(7\).jpeg);
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.item-2{
+    background-image: url(img/download\ \(9\).jpeg);
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.item-3{
+    background-image: url(img/images.jpeg);
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.item-4{
+    background-image: url(img/images\ \(10\).jpeg);
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.item-1 p{
+    margin-top: 150px;
+}
+.item-2 p{
+    margin-top: 150px; 
+}
+.item-3 p{
+    margin-top: 150px; 
+}
+.item-4 p{
+    margin-top: 150px; 
+}
+@media only screen and (max-width: 768px){
+    .container{
+        margin: 5% 10%;
+        width: auto;
+    }
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+}
